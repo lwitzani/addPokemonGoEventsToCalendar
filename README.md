@@ -1,14 +1,14 @@
-![](images/eventList.PNG)
+<img src="images/eventList.PNG" width="400"/>
 
 # Add Pokemon GO Events to your iOS calendar
 - this script displays the current and upcoming events that exist in Pokemon Go
 - users can tap on a list item to create a new calendar entry for the selected event
-  - this will display the following alert ![](images/success.PNG)
-  - when you check your calendar, you will see the created entry ![](images/comDayExample.PNG)
+  - this will display the following alert <img src="images/success.PNG" width="400"/>
+  - when you check your calendar, you will see the created entry <img src="images/comDayExample.PNG" width="400"/>
 - when an event is longer than a single day then you will get asked if you want to only create a calendar entry on the first day of the event or across the full range of the event
-  - ![](images/multiDayEvent.PNG)
+- <img src="images/multiDayEvent.PNG" width="400"/>
 - if a calendar entry already exists for the selected event then the old one is removed (you will not have duplicated events in your calendar)
-- you will get the following alert if the calendar cannot be found ![](images/wrongCalendarName.PNG)
+- you will get the following alert if the calendar cannot be found <img src="images/wrongCalendarName.PNG" width="400"/>
 
 # How to set up 
 - this Script is only for Apple devices and you need to have the Scriptable app from the Appstore installed
