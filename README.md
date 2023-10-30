@@ -2,6 +2,7 @@
 
 # Add Pokemon GO Events to your iOS calendar
 - this script displays the current and upcoming events that exist in Pokemon Go
+- the main purpose of this script is to be able to easily create calendar entries in iOS devices
 - users can tap on a list item to create a new calendar entry for the selected event
   - this will display the following alert <img src="images/success.PNG" width="400"/>
   - when you check your calendar, you will see the created entry <img src="images/comDayExample.PNG" width="400"/>
@@ -17,6 +18,7 @@
   - either you create a new calendar (inside your calendar app) with the name "PoGo" then the script works immediately
   - or you change the "calendarName" variable to whatever your preferred (and already existing) calendar's name is
 - in the current version, the script is meant to be executed inside the Scriptable app (meaning there is no widget for it)
+  - there is already another script that fills the purpose of showing events in widgets: https://github.com/bigfoott/PoGOEvents
 
 # Customizations
 - you can play around with the variables at the top as mentioned in the commented lines
