@@ -152,7 +152,7 @@ async function createCalendarEvent(pogoEvent, mode, calendar) {
 
 async function deleteDuplicateEventFromCalendar(startDate, endDate, calendar, eventName) {
     const eventsInSameRange = await CalendarEvent.between(startDate, endDate, [calendar]);
-    const alreadyExistingEvent = eventsInSameRange.find(event => event.title = eventName);
+    const alreadyExistingEvent = eventsInSameRange.find(event => event.title === eventName);
     if (alreadyExistingEvent) {
         alreadyExistingEvent.remove();
     }
